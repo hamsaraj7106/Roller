@@ -16,6 +16,8 @@ class GameDie{
  private:
   vector <int> roll_counter;
   static const int FACES = 6;
+  unsigned int a = 6;
+  unsigned int* seed = &a;
 };
 
 #endif  // GAMEDIE_H_
