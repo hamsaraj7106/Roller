@@ -19,5 +19,4 @@ class GameDie {
   unsigned int a = 6;
   unsigned int *seed = &a;
 };
-
 #endif  // GAMEDIE_H_
